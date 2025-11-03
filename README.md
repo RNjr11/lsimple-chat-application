@@ -23,7 +23,6 @@ A lightweight **real-time chat application** built using Node.js and native WebS
 
 ## ⚙️ Setup Instructions
 
-### 1️⃣ Clone the repo
 ```bash
 git clone https://github.com/RNjr11/lsimple-chat-application.git
 cd lsimple-chat-application
