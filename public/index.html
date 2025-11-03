@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>WebSocket Chat</title>
+  <link rel="stylesheet" href="style.css" />
+  <button id="logoutBtn" class="logout-btn">Logout</button>
+</head>
+<body>
+  <h2>💬 WebSocket Chat with Giphy</h2>
+  <div id="messages" class="chat-box"></div>
+
+  <form id="form">
+    <input id="input" autocomplete="off" placeholder="Type a message..." />
+    <button>Send</button>
+  </form>
+
+  <hr />
+  <div>
+    <input id="searchInput" placeholder="Search GIF..." />
+    <button id="searchBtn">🔍 Search</button>
+  </div>
+  <div id="gifContainer"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
